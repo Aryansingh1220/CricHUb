@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .mobile {
+    border: 1px solid #eee;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    max-width: 480px;
+    /*   max-height: 800px; */
+    font-family: "Raleway", sans-serif;
+    overflow: hidden;
+  }
+  
+  section {
+    margin: 1.5rem 1.5rem;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header {
+    background-color: #064dbb;
+    color: white;
+    height: 12rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    padding-top: 2rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0px 12px 18px 0 rgba(200, 200, 200, 0.6);
+  }
+  
+  .result {
+    margin-top: -6rem;
+    padding: 1rem 1.5rem;
+  }
+  
+  .result .subtitle {
+    margin-bottom: 1rem;
+  }
+  
+  .team {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
+  
+  .team img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+    margin-right: 0.5rem;
+  }
+  
+  .winner {
+    color: black;
+  }
+  
+  .loser {
+    color: #666;
+  }
+  
+  .score {
+    margin-left: auto;
+    text-align: right;
+  }
+  
+  .overs {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  .vs {
+    text-align: center;
+  }
+  
+  .vs span {
+    display: inline-block;
+    background-color: #eee;
+    color: #666;
+    font-size: 0.8rem;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+  }
+  
+  .result p:last-child {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 1rem;
+  }
+  
+  menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 1.5rem;
+  }
+  
+  menu button {
+    border: none;
+    background: white;
+    padding: 1.5rem 1rem;
+    font-size: 1.2rem;
+  }
+  
+  menu button.active {
+    color: #064dbb;
+    border-bottom: 4px solid #064dbb;
+  }
+  
+  table {
+    text-align: right;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  thead {
+    color: black;
+  }
+  
+  tbody {
+    color: #666;
+  }
+  
+  tbody tr {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:nth-child(2n + 1) {
+    background: linear-gradient(to bottom, #f2f2f2, white 70%, white);
+  }
+  
+  th,
+  td {
+    padding: 1rem 0.25rem;
+  }
+  
+  thead th:first-child,
+  tbody td:first-child {
+    text-align: left;
+    padding-left: 1.5rem;
+  }
+  
+  tbody td:first-child {
+    color: #064dbb;
+    font-weight: 500;
+  }
+  
+  thead th:last-child,
+  tbody td:last-child {
+    padding-right: 1.5rem;
+  }
+  
+  th,
+  td {
+    padding: 1rem 0.25rem;
+  }
+  
+  .pom {
+    overflow: visible;
+    margin: 1rem 1.5rem;
+    padding: 1rem 1.5rem;
+    width: auto;
+    position: relative;
+    height: 10rem;
+  }
+  
+  .pom img {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    height: 11rem;
+  }
+  
+  .pom h2 {
+  }
+  
+  .pom .name {
+    font-size: 1.25rem;
+  }
+  
